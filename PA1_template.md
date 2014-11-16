@@ -8,6 +8,7 @@ We set the work directory, and then read the data
 data<-read.csv("activity.csv")
 library(ggplot2)
 library(lattice)
+library(knitr)
 head(data)
 ```
   
